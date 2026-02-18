@@ -4,3 +4,5 @@ update
 
 Git GUI
 
+Git Desktop
+
