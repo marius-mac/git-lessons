@@ -6,7 +6,9 @@ Git GUI
 
 Git Desktop
 
-Git Terminal
+Git Terminal Linux
 
-Git OK
+Git OK Linux
+
+Gitkraken Linux
 
