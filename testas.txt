@@ -6,3 +6,5 @@ Git GUI
 
 Git Desktop
 
+Git Terminal
+
