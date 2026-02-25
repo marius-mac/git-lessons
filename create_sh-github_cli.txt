@@ -1,0 +1,15 @@
+
+--------------------------------------------------------------------------------
+
+Simply generating a new SSH key:
+ssh-keygen -o -t rsa -C "@pcrworks"
+
+Copy the id_rsa.pub all content to your clipboard:
+~/.ssh/id_rsa.pub
+
+----------------------------------------------------------------------------
+
+Alternatively GitHub CLI authenticate with a GitHub host: 
+gh auth login
+
+--------------------------------------------------------------------------------
