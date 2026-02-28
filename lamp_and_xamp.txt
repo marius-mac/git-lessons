@@ -1,0 +1,39 @@
+
+apache2 (lamp) start:
+
+sudo service apache2 start
+sudo service apache2 restart
+sudo service apache2 stop
+	>>> 
+
+sudo service mysql start
+sudo service mysql restart
+sudo service mysql stop
+	>>> sudo mysql -u root -p
+	>>> mysqlroot
+	>>> \q
+
+-----------------------------------------------------------
+
+Managing Both Services
+
+LAMP: Controlled via systemctl: 
+sudo systemctl start apache2
+
+XAMPP: Controlled via /opt/lampp/lampp:
+sudo /opt/lampp/lampp start
+
+GUI Control: You can launch the XAMPP manager GUI with: 
+sudo /opt/lampp/manager-linux-x64.run
+
+-----------------------------------------------------------
+
+You can check which Apache is active by checking the version in the terminal
+
+LAMP:
+apache2 -v
+
+XAMPP:
+/opt/lampp/bin/apachectl -v
+
+-----------------------------------------------------------

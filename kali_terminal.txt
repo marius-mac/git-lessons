@@ -1,0 +1,16 @@
+Linux version:
+
+cat /proc/version
+lsb_release -a
+
+----------------------------------
+
+GPU info:
+nvidia-smi
+glxinfo | grep OpenGL
+
+----------------------------------
+
+sudo apt update
+
+sudo apt full-upgrade
